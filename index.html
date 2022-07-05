@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>همایش</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.rtl.min.css"
+      integrity="sha384-dc2NSrAXbAkjrdm9IYrX10fQq9SDG6Vjz7nQVKdKcJl3pC+k37e7qJR5MVSCS+wR"
+      crossorigin="anonymous"
+      media="print"
+      onload="this.media='all'"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      media="print"
+      onload="this.media='all'"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+      media="print"
+      onload="this.media='all'"
+    />
+    <link rel="stylesheet" href="asset/style/main.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./asset/img/logo.png" alt="demio" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >صفحه اصلی</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">همایش ها</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">سوالات متداول</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">درباره ما</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">تماس با ما</a>
+              </li>
+            </ul>
+            <div>
+              <div style="display: inline-block;position: relative;">
+                <a
+                class="text-decoration-none dropdown-toggle me-3 languageToggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <i class="fa-solid fa-chevron-down"></i>
+                فا/En
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">فارسی</a></li>
+                <li><a class="dropdown-item" href="#">English</a></li>
+              </ul>
+              </div>
+
+              <a href="" class="btn rounded-5 loginBtn py-2 px-3 me-2">
+                <img
+                  src="./asset/icon/Lock.png"
+                  alt=""
+                  class="me-1"
+                  style="width: 14px"
+                />
+                <span>ورود</span>
+              </a>
+              <a href="" class="btn rounded-5 signupBtn py-2 px-3">
+                <i class="fa-solid fa-user-plus me-1"></i>
+                <span>ثبت نام</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <!-- breadvrumb -->
+        <div class="mt-5">
+          <nav aria-label="breadcrumb">
+            <span> </span>
+            <ol class="breadcrumb">
+              <li>
+                <span class="me-2">
+                  <img src="./asset/icon/home.png" class="me-1" alt="" />
+                  <span>|</span>
+                </span>
+              </li>
+              <li class="breadcrumb-item">
+                <a href="#" class="text-decoration-none" style="color: inherit"
+                  >صفحه اصلی</a
+                >
+              </li>
+              <li class="breadcrumb-item">
+                <a href="#" class="text-decoration-none" style="color: inherit"
+                  >همایش</a
+                >
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">
+                ششمین همایش بین المللی اخلاق حرفه ای آبان ۱۴۰۱
+              </li>
+            </ol>
+          </nav>
+        </div>
+
+        <!-- description -->
+        <div class="mt-5 px-5">
+          <div class="row justify-content-between">
+            <div class="col-12 col-lg-3 mb-5 mb-lg-0">
+              <div class="d-flex flex-column">
+                <img
+                  src="./asset/img/banner.png"
+                  class="w-100"
+                  alt="همایش اخلاق حرفه ای"
+                />
+              </div>
+              <div class="row mt-5">
+                <div class="col text-center">
+                  <div
+                    class="d-flex w-100 h-100 align-items-center justify-content-center fs-4"
+                    style="color: #9c9faa"
+                  >
+                    26+
+                  </div>
+                </div>
+                <div class="col text-center">
+                  <img
+                    src="./asset/icon/Play.png"
+                    class="bannerSliderIcon"
+                    alt=""
+                  />
+                </div>
+                <div class="col text-center">
+                  <img
+                    src="./asset/icon/Picture.png"
+                    class="bannerSliderIcon"
+                    alt=""
+                  />
+                </div>
+                <div class="col text-center">
+                  <img
+                    src="./asset/icon/Picture.png"
+                    class="bannerSliderIcon"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-8">
+              <div class="d-flex align-items-center mb-2">
+                <div
+                  class="verticalDivider me-2 d-none d-lg-inline-block"
+                ></div>
+                <span class="fs-5"
+                  >ششمین همایش بین المللی اخلاق حرفه ای آبان ۱۴۰۱</span
+                >
+              </div>
+              <p style="color: #9c9faa">
+                Sixth International Conference on Professional Ethics, November
+                1401
+              </p>
+              <div>
+                <div class="colorGrayHigh">
+                  <span class="me-2">
+                    <span>سطح برگذاری:</span>
+                    <span>ملی</span>
+                  </span>
+                  <span>
+                    <span> دسته/حوزه های تحت پوشش: </span>
+                    <span> برق، الکترونیک • کامپیوتر • مهندسی پزشکی </span>
+                  </span>
+                </div>
+              </div>
+              <div
+                class="row mt-3 justify-content-between rounded-4 py-3 border colorGrayHigh"
+              >
+                <div class="col-5">
+                  <p>
+                    <span class="me-2">زمان برگذاری:</span>
+                    <span class="fw-bold fs-5">شنبه 20 آبان</span>
+                  </p>
+                  <p>
+                    <span class="me-2">تاریخ و ساعت:</span>
+                    <span>1401/08/20 - 16:00:00</span>
+                  </p>
+                  <div>ثانیه شمار رویداد:</div>
+
+                  <div class="row mt-5">
+                    <div
+                      class="col d-flex justify-content-center flex-column align-items-center"
+                    >
+                      <div class="fw-bold fs-4 dayCounterSeconds">34</div>
+                      <div class="fs-6 dayCounterSeconds">ثانیه</div>
+                    </div>
+                    <div
+                      class="col d-flex justify-content-center flex-column align-items-center"
+                    >
+                      <div class="fw-bold fs-4">08</div>
+                      <div class="fs-6">دقیقه</div>
+                    </div>
+                    <div
+                      class="col d-flex justify-content-center flex-column align-items-center"
+                    >
+                      <div class="fw-bold fs-4">20</div>
+                      <div class="fs-6">ساعت</div>
+                    </div>
+                    <div
+                      class="col d-flex justify-content-center flex-column align-items-center dayCounterNotActive"
+                    >
+                      <div class="fw-bold fs-4">00</div>
+                      <div class="fs-6">روز</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-5 mt-3">
+                  <div class="mapImg rounded-5"></div>
+                  <p class="mt-2 fs-6">
+                    مکان برگزاری: ایران - تهران - دانشگاه صنعتی خواجه نصیر الدین
+                    طوسی
+                  </p>
+                </div>
+              </div>
+              <p class="mt-4 colorGrayHigh" style="font-size: 0.9rem">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+                استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+                در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد
+                نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد،
+                کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان
+                جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را
+                برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در
+                زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و
+                دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و
+                زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات
+                پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ads -->
+        <div class="mt-5">
+          <div class="row">
+            <div class="col-12 col-md-4">
+              <img src="./asset/img/banner1.png" class="w-100" alt="" />
+            </div>
+            <div class="col-12 col-md-4">
+              <img src="./asset/img/banner2.png" class="w-100" alt="" />
+            </div>
+            <div class="col-12 col-md-4">
+              <img src="./asset/img/banner3.png" class="w-100" alt="" />
+            </div>
+          </div>
+        </div>
+        <!-- more details -->
+        <div class="mt-5">
+          <div class="d-flex justify-content-between">
+            <div>
+              <img src="./asset/icon/Collapse.png" alt="" class="me-2" />
+              <span>اطلاعات تکمیلی رویداد</span>
+            </div>
+            <div>
+              <img src="./asset/icon/download.png" alt="" class="me-2" />
+              <span class="colorGrayLow">دانلود فایل پی دی اف</span>
+            </div>
+          </div>
+          <div
+            class="mt-5 d-flex justify-content-between"
+            data-bs-toggle="collapse"
+            href="#collapseExample"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapseExample"
+          >
+            <div>
+              <img src="./asset/icon/mouse.png" alt="" class="" />
+              <span>موضوع و عنوان اطلاعات اینجا قرار میگرد </span>
+            </div>
+            <span><i class="colorGrayLow fa-solid fa-chevron-down"></i></span>
+          </div>
+          <div class="mt-5 colorGrayHigh collapse show" id="collapseExample">
+            <span style="font-size: 0.9rem"
+              >لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+              استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله
+              در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد
+              نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد،
+              کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان
+              جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای
+              طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان
+              فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری
+              موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد
+              نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل
+              دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+            </span>
+            <div class="row mt-3">
+              <div class="col-12 col-md-6">
+                <i class="fa-solid fa-check me-2 colorPrimary mb-3"></i>
+                <span>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</span>
+              </div>
+              <div class="col-12 col-md-6">
+                <i class="fa-solid fa-check me-2 colorPrimary mb-3"></i>
+                <span>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</span>
+              </div>
+              <div class="col-12 col-md-6">
+                <i class="fa-solid fa-check me-2 colorPrimary mb-3"></i>
+                <span>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</span>
+              </div>
+              <div class="col-12 col-md-6">
+                <i class="fa-solid fa-check me-2 colorPrimary mb-3"></i>
+                <span>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- seminar description -->
+        <div class="mt-5">
+          <div>
+            <img src="./asset/icon/Collapse.png" alt="" class="me-1" />
+            <span>توضیحات و اطلاعات همایش</span>
+          </div>
+          <div class="colorGrayLow mt-3">
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با
+            استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در
+            ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز،
+            و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای
+            زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و
+            متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان
+            رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد
+            کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه
+            راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل
+            حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود
+            طراحی اساسا مورد استفاده قرار گیرد. لورم ایپسوم متن ساختگی با تولید
+            سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،
+            چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است،
+            و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود
+            ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و
+            آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها
+            شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و
+            فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت
+            که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان
+            رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات
+            پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد. لورم
+            ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده
+            از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و
+            سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و
+            کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی
+            در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را
+            می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی
+            الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این
+            صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و
+            شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی
+            دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا
+            مورد استفاده قرار گیرد. لورم ایپسوم متن ساختگی با تولید سادگی
+            نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و
+            متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای
+            شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود
+            ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و
+            آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها
+            شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و
+            فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت
+            که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان
+            رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات
+            پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+          </div>
+        </div>
+        <!-- supporters -->
+        <div class="mt-5">
+          <div>
+            <img src="./asset/icon/Collapse.png" alt="" class="me-1" />
+            <span class="fs-5">حامیان</span>
+            <div class="swiper mySwiper mt-3">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./asset/img/tejarat.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./asset/img/tejarat.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./asset/img/tejarat.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./asset/img/tejarat.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./asset/img/tejarat.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./asset/img/tejarat.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./asset/img/tejarat.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./asset/img/tejarat.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./asset/img/tejarat.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./asset/img/tejarat.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./asset/img/tejarat.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./asset/img/tejarat.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./asset/img/tejarat.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./asset/img/tejarat.png" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./asset/img/tejarat.png" alt="" />
+                </div>
+              </div>
+              <div class="swiper-button-next">
+                <!-- <i class="fa-solid fa-angle-left"></i> -->
+              </div>
+              <div class="swiper-button-prev">
+                <!-- <i class="fa-solid fa-angle-right"></i> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- more seminar -->
+        <div class="mt-5">
+          <img src="./asset/icon/Collapse.png" alt="" class="me-1" />
+          <span class="fs-5">همایش های جاری</span>
+          <div class="row mt-3">
+            <div class="col-6 mb-2 mb-md-0 col-md-2">
+              <a href="">
+              <img src="./asset/img/poster1.png" class="poster w-100" alt="">
+              
+            </a>
+            </div>
+            <div class="col-6 mb-2 mb-md-0 col-md-2">
+              <a href="">
+              <img src="./asset/img/poster2.png" class="poster w-100" alt="">
+              
+            </a>
+            </div>
+            <div class="col-6 mb-2 mb-md-0 col-md-2">
+              <a href="">
+              <img src="./asset/img/poster3.png" class="poster w-100" alt="">
+              
+            </a>
+            </div>
+            <div class="col-6 mb-2 mb-md-0 col-md-2">
+              <a href="">
+              <img src="./asset/img/poster4.png" class="poster w-100" alt="">
+              
+            </a>
+            </div>
+            <div class="col-6 mb-2 mb-md-0 col-md-2">
+              <a href="">
+              <img src="./asset/img/poster5.png" class="poster w-100" alt="">
+              
+            </a>
+            </div>
+            <div class="col-6 mb-2 mb-md-0 col-md-2">
+              <a href="">
+              <img src="./asset/img/poster6.png" class="poster w-100" alt="">
+              
+            </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+    <footer style="margin-top: 7rem;" class="mb-2">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div>
+              <i class="fa-solid fa-chevron-left me-2" style="font-size: 13px;"></i>
+              <span class="fw-bold">رویداد های پیش رو</span>
+              <ul class="colorGrayHigh p-0 mt-3" style="list-style: none;">
+                <li class="mb-2">همایش کتاب هند 6 فروردین</li>
+                <li class="mb-2">همایش کشاورزی 1 اردیبهشت</li>
+                <li class="mb-2">همایش گرمایش زمبن 22 تیر</li>
+                <li class="mb-2">همایش فیزیک تهران 14 بهمن</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <i class="fa-solid fa-chevron-left me-2" style="font-size: 13px;"></i>
+              <span class="fw-bold">رویداد های گذشته</span>
+              <ul class="colorGrayHigh p-0 mt-3" style="list-style: none;">
+                <li class="mb-2">همایش کتاب هند 6 فروردین</li>
+                <li class="mb-2">همایش کشاورزی 1 اردیبهشت</li>
+                <li class="mb-2">همایش گرمایش زمبن 22 تیر</li>
+                <li class="mb-2">همایش فیزیک تهران 14 بهمن</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <i class="fa-solid fa-chevron-left me-2" style="font-size: 13px;"></i>
+              <span class="fw-bold">دسترسی سریع</span>
+              <ul class="colorGrayHigh p-0 mt-3" style="list-style: none;">
+                <li class="mb-2">ورود / ثبت نام</li>
+                <li class="mb-2">سوالات متداول</li>
+                <li class="mb-2">رویداد و همایش ها</li>
+                <li class="mb-2">تماس با ما</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <i class="fa-solid fa-chevron-left me-2" style="font-size: 13px;"></i>
+              <span class="fw-bold">ما کجا مستقر هستیم</span>
+              <div class="mt-3 mapImg rounded-5"></div>
+          </div>
+          <div class="mt-5">
+            <hr class="footerHr mb-3">
+            <div class="d-flex align-items-center">
+              <img src="./asset/img/logo.png" alt="">
+              <i class="fa-brands fa-twitter footerSocialIcons me-3 ms-3 fs-4"></i>
+              <i class="fa-brands fa-facebook-square footerSocialIcons me-3 fs-4"></i>
+              <i class="fa-brands fa-instagram footerSocialIcons me-3 fs-4"></i>
+              <i class="fa-brands fa-telegram footerSocialIcons me-3 fs-4"></i>
+            </div>
+          </div>
+          <div class="mt-5">
+            <div class="row justify-content-between">
+              <div class="col-12 col-lg-10">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد.</div>
+              <div class="col-6 col-lg-1 d-flex mt-3 mt-lg-0"><img src="./asset/img/Samandehi1.png" alt=""></div>
+              <div class="col-6 col-lg-1 d-flex justify-content-end  mt-3 mt-lg-0"><img src="./asset/img/Samandehi2.png" alt=""></div>
+            </div>
+          </div>
+          <div class="mt-5 py-2 px-3 text-center" style="font-size:0.8rem;">
+            استفاده از مطالب (اسم سایت یا شرکت) فقط برای مقاصد غیرتجاری و با ذکر منبع بلامانع است. کلیه حقوق این سایت متعلق (اسم سایت یا شرکت) می‌باشد 
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./asset/js/app.js"></script>
+  </body>
+</html>
